@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Stock Management ',
+      title: 'Stock Management App',
       theme: ThemeData(
         primaryColor: const Color(0xFF0D47A1),  // Deep blue for stock theme
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green.shade700),  // Fixed: Use shade700 for non-nullable Color
